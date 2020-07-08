@@ -7,11 +7,12 @@ const sts = new AWS.STS();
 const request = require('request').defaults({ jar: true });
 const url = require('url');
 const JSSoup = require('jssoup').default;
+const os = require('os');
 const path = require('path');
 const fs = require('fs');
 const ini = require('ini');
 
-const HOME = process.env.HOME || process.env.HOMEPATH;
+const HOME = os.homedir();
 const CONFIG_FILE = path.join(HOME, '.aws', 'credentials');
 
 let IDP_URL = process.env.IDP_URL;
