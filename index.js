@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Create temporary AWS credentials using SAML provider.
 
 const AWS = require('aws-sdk');
