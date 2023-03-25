@@ -1,3 +1,7 @@
+# Deprecated!
+
+As of March 2023, aws-saml-session is deprecated, please use [aws-saml-session-mfa](https://www.npmjs.com/package/aws-saml-session-mfa) instead.
+
 # aws-saml-session
 
 Create temporary AWS credentials using SAML provider.
